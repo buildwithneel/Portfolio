@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Neel Agrawal | Information Technology Student & Developer</title>
+  
+  <!-- SEO & Open Graph Meta Tags -->
+  <meta name="description" content="Personal portfolio of Neel Agrawal, Information Technology Student at CHARUSAT. Exploring AI/ML, Data Science, Cybersecurity, software development, and rapid creative prototyping.">
+  <meta name="keywords" content="Neel Agrawal, CHARUSAT, Information Technology, AI, Machine Learning, Cybersecurity, Data Science, Portfolio, Vibe Coding, Developer">
+  <meta name="author" content="Neel Agrawal">
+  
+  <meta property="og:title" content="Neel Agrawal | Information Technology Student & Developer">
+  <meta property="og:description" content="Exploring AI, Data Science & Cybersecurity while building innovative solutions to real-world problems.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/buildwithneel">
+  
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Animated Decorative Elements -->
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+  <div class="bg-grid-pattern" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand" aria-label="Neel Agrawal Home">
+        <span class="brand-code">&lt;</span>NeelAgrawal<span class="brand-code"> /&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Navigation Hamburger Toggle -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Information Technology Student @ CHARUSAT</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Neel Agrawal</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Exploring <strong class="highlight-text">AI/ML</strong>, <strong class="highlight-text">Data Science</strong> &amp; <strong class="highlight-text">Cybersecurity</strong> while building innovative solutions to real-world problems.
+          </p>
+
+          <p class="hero-description">
+            Passionate about rapid experimentation, creative coding, vibe coding, and transforming ideas into functional, impactful software projects.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+            </a>
+            <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="Download Neel Agrawal's Resume (PDF)" aria-label="Download Resume">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span class="socials-label">Connect:</span>
+            <!-- GitHub Profile -->
+            <a href="https://github.com/buildwithneel" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile (Opens in new tab)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <!-- LinkedIn Profile -->
+            <a href="https://www.linkedin.com/in/neelagrawal01" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile (Opens in new tab)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <!-- Instagram Profile -->
+            <a href="https://www.instagram.com/neel_agrwl08" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram Profile (Opens in new tab)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="profile-card">
+            <div class="profile-image-container">
+              <!-- PROFILE_PHOTO_HERE: Place your image file at assets/profile.jpg -->
+              <img src="assets/profile.jpeg" alt="Neel Agrawal - Information Technology Student" class="profile-image" id="profile-img" loading="lazy" onerror="this.style.display='none'; document.getElementById('profile-avatar-fallback').style.display='flex';">
+              
+              <!-- Automatic Visual Fallback Avatar Frame if profile.jpg is not yet provided -->
+              <div class="profile-avatar-fallback" id="profile-avatar-fallback" aria-hidden="true">
+                <div class="avatar-initials">NA</div>
+                <span class="avatar-tag">PROFILE_PHOTO_HERE</span>
+              </div>
+            </div>
+            
+            <div class="profile-card-badge">
+              <span class="badge-status-dot"></span>
+              <span>Available for Hackathons &amp; Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get to know me</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-about-card">
+            <div class="card-corner-tag">Bio</div>
+            <p class="about-text">
+              I am an Information Technology student at <strong>CHARUSAT</strong>, deeply interested in <strong>Artificial Intelligence &amp; Machine Learning</strong>, <strong>Data Science</strong>, <strong>Cybersecurity</strong>, and software development.
+            </p>
+            <p class="about-text">
+              I thrive on brainstorming new ideas, experimenting with emerging technologies, vibe coding, building innovative projects, and solving real-world problems through technology. For me, coding is both a technical discipline and a creative playground where rapid experimentation turns abstract concepts into working solutions.
+            </p>
+          </div>
+
+          <div class="about-attributes-grid">
+            <div class="attribute-card">
+              <div class="attribute-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
+              </div>
+              <h3 class="attribute-title">Curious Explorer</h3>
+              <p class="attribute-desc">Constantly investigating AI advances, security paradigms, and modern tech stacks.</p>
+            </div>
+
+            <div class="attribute-card">
+              <div class="attribute-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="attribute-title">Creative Vibe Coder</h3>
+              <p class="attribute-desc">Rapidly prototyping ideas and bringing imaginative concepts to life through creative iteration.</p>
+            </div>
+
+            <div class="attribute-card">
+              <div class="attribute-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+              <h3 class="attribute-title">Practical Builder</h3>
+              <p class="attribute-desc">Focusing on pragmatic engineering, real-world utility, and robust execution.</p>
+            </div>
+
+            <div class="attribute-card">
+              <div class="attribute-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <h3 class="attribute-title">Security &amp; Trust Mindset</h3>
+              <p class="attribute-desc">Passionate about digital security, threat awareness, and ethical AI development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Journey</span>
+          <h2 class="section-title">Education</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="education-timeline">
+          <div class="education-card">
+            <div class="edu-header">
+              <div class="edu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              </div>
+              <div class="edu-meta">
+                <span class="edu-duration">2025 – 2029</span>
+                <span class="edu-cgpa-badge">Current CGPA: 8.12</span>
+                <span class="edu-badge">Current Undergraduate</span>
+              </div>
+            </div>
+
+            <h3 class="edu-degree">Bachelor of Technology in Information Technology</h3>
+            <h4 class="edu-institution">CHARUSAT (Charotar University of Science and Technology)</h4>
+            
+            <p class="edu-description">
+              Building a strong foundational background in computing fundamentals, algorithms, software engineering, intelligent systems, data structures, and computer network security.
+            </p>
+
+            <div class="edu-highlights">
+              <span class="tag">Information Technology</span>
+              <span class="tag">AI &amp; ML Fundamentals</span>
+              <span class="tag">Cybersecurity Concepts</span>
+              <span class="tag">Software Development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Toolkit</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon icon-code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="skill-category-title">Programming</h3>
+            </div>
+            <div class="skills-pill-list">
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">C</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">C++</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Python</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Web Technologies -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon icon-web">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              </div>
+              <h3 class="skill-category-title">Web Technologies</h3>
+            </div>
+            <div class="skills-pill-list">
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">HTML5</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">CSS3</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Tools & Platforms -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon icon-tools">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <h3 class="skill-category-title">Tools &amp; Workflow</h3>
+            </div>
+            <div class="skills-pill-list">
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Git</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">GitHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Featured Work &amp; Active Prototypes</span>
+          <h2 class="section-title">Projects</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- 1. ANVESHA (Existing Project) -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Anvesha</h3>
+            </div>
+
+            <p class="project-description">
+              Anvesha is an AI-powered railway station CCTV monitoring concept developed as a solution for an internal institute-level SIH problem statement. It is designed to use existing CCTV infrastructure to monitor railway stations and identify situations such as unusual crowd buildup and potential security concerns, with the goal of alerting railway authorities for faster response.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">AI/ML</span>
+              <span class="tech-tag">Computer Vision</span>
+              <span class="tech-tag">CCTV Monitoring</span>
+              <span class="tech-tag">Railway Safety</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/buildwithneel/ANVESHA" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" aria-label="View Anvesha on GitHub (Opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 2. SAARTHI AI (Existing Project) -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Saarthi AI</h3>
+            </div>
+
+            <p class="project-description">
+              Saarthi AI is an AI-based counselling concept designed for college students. The project explores how AI can provide accessible guidance and support to students while addressing common academic and student-life concerns. It was developed as a hackathon project and is currently not fully functional, but the project demonstrates the idea of using AI to create a student-focused counselling platform.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">AI</span>
+              <span class="tech-tag">Student Support</span>
+              <span class="tech-tag">Counselling</span>
+              <span class="tech-tag">Hackathon Project</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/buildwithneel/saarthiai" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" aria-label="View Saarthi AI on GitHub (Opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 3. GARUDA AI (Existing Project) -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Garuda AI</h3>
+            </div>
+
+            <p class="project-description">
+              Garuda AI is a cybersecurity-focused project developed for FinSpark '26, exploring the detection of potential insider threats. The project focuses on identifying suspicious or potentially malicious behavior from within an organization and using intelligent analysis to support threat detection.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">AI/ML</span>
+              <span class="tech-tag">Cybersecurity</span>
+              <span class="tech-tag">Insider Threat Detection</span>
+              <span class="tech-tag">Security Analytics</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/buildwithneel/Insider-threat-detection" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" aria-label="View Garuda AI on GitHub (Opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 4. GHOST CHAT (Existing Project) -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Ghost Chat</h3>
+            </div>
+
+            <p class="project-description">
+              Ghost Chat is an experimental privacy-focused chatting concept built around the idea of communicating without requiring users to share personal identifiers such as phone numbers or social-media IDs. The long-term vision is to create a platform where users can communicate privately without exposing unnecessary personal details, with messages designed not to remain stored on devices after the user logs out. The current implementation is not fully functional and should be presented as an experimental project/concept rather than a finished product.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Privacy</span>
+              <span class="tech-tag">Communication</span>
+              <span class="tech-tag">Web Development</span>
+              <span class="tech-tag">Experimental Project</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/buildwithneel/Ghostchat" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" aria-label="View Ghost Chat on GitHub (Opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 5. TRUTHLENCE (Currently Building Spotlight) -->
+          <article class="project-card featured-project">
+            <div class="project-header">
+              <div class="project-tags-row">
+                <div class="project-spotlight-tag">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <span>Spotlight Project</span>
+                </div>
+                <div class="building-badge">
+                  <span class="building-dot"></span>
+                  <span>Currently Building</span>
+                </div>
+              </div>
+              <h3 class="project-title">Truthlence</h3>
+            </div>
+
+            <p class="project-description">
+              Truthlence is an AI and cybersecurity project focused on detecting manipulated and deepfake video content in real time. The project explores how AI-based analysis can help identify potentially manipulated media and improve trust in digital video.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">AI/ML</span>
+              <span class="tech-tag">Deepfake Detection</span>
+              <span class="tech-tag">Cybersecurity</span>
+              <span class="tech-tag">Digital Trust</span>
+            </div>
+          </article>
+
+          <!-- 6. CLOUD CODING WORKSPACE (Currently Building) -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-tags-row">
+                <div class="building-badge">
+                  <span class="building-dot"></span>
+                  <span>Currently Building</span>
+                </div>
+              </div>
+              <h3 class="project-title">Cloud Coding Workspace</h3>
+            </div>
+
+            <p class="project-description">
+              Cloud Coding Workspace is an upcoming project exploring the idea of a browser-based coding environment where users can write and work with code through a cloud-based workspace. The goal is to make development more accessible and convenient by providing a coding environment that can be accessed without depending entirely on a local development setup.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Cloud Computing</span>
+              <span class="tech-tag">Developer Tools</span>
+              <span class="tech-tag">Software Development</span>
+            </div>
+          </article>
+
+          <!-- 7. GPS-BASED TIMER (Currently Building) -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-tags-row">
+                <div class="building-badge">
+                  <span class="building-dot"></span>
+                  <span>Currently Building</span>
+                </div>
+              </div>
+              <h3 class="project-title">GPS-Based Timer</h3>
+            </div>
+
+            <p class="project-description">
+              GPS-Based Timer is an upcoming project exploring a location-aware timer that combines GPS functionality with time-based actions. The idea is to create a system where specific timer behavior can be associated with a user's location, opening possibilities for context-aware reminders and automated actions.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">GPS</span>
+              <span class="tech-tag">Location-Based Technology</span>
+              <span class="tech-tag">Smart Automation</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Milestones &amp; Highlights</span>
+          <h2 class="section-title">Achievements</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="achievements-container">
+          <div class="achievement-card">
+            <div class="achievement-icon-wrapper">
+              <span class="trophy-emoji" role="img" aria-label="Trophy">🏆</span>
+            </div>
+
+            <div class="achievement-content">
+              <div class="achievement-badge-meta">National Level Hackathon</div>
+              <h3 class="achievement-title">Top 20 Team — FinSpark '26</h3>
+              <p class="achievement-description">
+                "My team was selected among the Top 20 teams in FinSpark '26, a national-level hackathon."
+              </p>
+              <div class="achievement-tags">
+                <span class="tag">FinSpark '26</span>
+                <span class="tag">National Hackathon</span>
+                <span class="tag">Top 20 Selection</span>
+                <span class="tag">Team Collaboration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-single-col">
+          <div class="contact-info-card">
+            <h3 class="contact-subheading">Neel Agrawal</h3>
+            <p class="contact-institution-line">Information Technology Student @ CHARUSAT</p>
+            
+            <p class="contact-text">
+              Whether you want to brainstorm an innovative project idea, discuss AI and cybersecurity, or explore hackathon opportunities, feel free to connect!
+            </p>
+
+            <div class="contact-cards-list">
+              <!-- Email Contact Card -->
+              <a href="mailto:neelag0804@gmail.com" class="contact-card" aria-label="Send Email to Neel Agrawal (neelag0804@gmail.com)">
+                <div class="contact-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-card-details">
+                  <span class="contact-card-label">Email</span>
+                  <span class="contact-card-value">neelag0804@gmail.com</span>
+                </div>
+                <div class="contact-card-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </div>
+              </a>
+
+              <!-- GitHub Contact Card -->
+              <a href="https://github.com/buildwithneel" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Neel Agrawal GitHub Profile (https://github.com/buildwithneel)">
+                <div class="contact-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </div>
+                <div class="contact-card-details">
+                  <span class="contact-card-label">GitHub</span>
+                  <span class="contact-card-value">https://github.com/buildwithneel</span>
+                </div>
+                <div class="contact-card-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </div>
+              </a>
+
+              <!-- LinkedIn Contact Card -->
+              <a href="https://www.linkedin.com/in/neelagrawal01" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Neel Agrawal LinkedIn Profile (https://www.linkedin.com/in/neelagrawal01)">
+                <div class="contact-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div class="contact-card-details">
+                  <span class="contact-card-label">LinkedIn</span>
+                  <span class="contact-card-value">https://www.linkedin.com/in/neelagrawal01</span>
+                </div>
+                <div class="contact-card-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </div>
+              </a>
+
+              <!-- Instagram Contact Card -->
+              <a href="https://www.instagram.com/neel_agrwl08" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Neel Agrawal Instagram Profile (https://www.instagram.com/neel_agrwl08)">
+                <div class="contact-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </div>
+                <div class="contact-card-details">
+                  <span class="contact-card-label">Instagram</span>
+                  <span class="contact-card-value">https://www.instagram.com/neel_agrwl08</span>
+                </div>
+                <div class="contact-card-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo">Neel Agrawal</a>
+        <p class="footer-role">Information Technology Student @ CHARUSAT</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; <span id="current-year">2026</span> Neel Agrawal. All rights reserved.</p>
+        <p class="footer-tagline">Crafted with curiosity, code, and passion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

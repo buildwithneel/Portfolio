@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghost Chat — Ephemeral Privacy-First Chat | Neel Agrawal</title>
+  <meta name="description" content="Engineering case study for Ghost Chat: Zero-trace, anonymous web communication without personal identifiers by Neel Agrawal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="case-study.css">
+</head>
+<body>
+
+  <nav class="cs-nav" aria-label="Breadcrumb navigation">
+    <div class="cs-nav-inner">
+      <a href="../index.html#projects" class="cs-back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        Back to Portfolio
+      </a>
+      <span class="cs-meta-pill">Experimental Security Prototype</span>
+    </div>
+  </nav>
+
+  <main class="cs-container">
+    <header class="cs-header">
+      <div class="cs-tagline">Case Study [05] // Web Security &amp; Ephemeral Systems</div>
+      <h1 class="cs-title">Ghost Chat: Zero-Identity Ephemeral Web Communications</h1>
+      <p class="cs-summary">
+        An experimental lightweight communication architecture built around zero user identifiers, peer-room ephemeral states, and memory-only storage that leaves zero persistent footprints upon session close.
+      </p>
+
+      <div class="cs-facts-grid">
+        <div>
+          <div class="cs-fact-label">Project Type</div>
+          <div class="cs-fact-val">Exploratory Privacy Concept</div>
+        </div>
+        <div>
+          <div class="cs-fact-label">Neel's Role</div>
+          <div class="cs-fact-val">Full-Stack Prototype Developer</div>
+        </div>
+        <div>
+          <div class="cs-fact-label">Key Stack</div>
+          <div class="cs-fact-val">JavaScript, WebSockets, HTML5, CSS3</div>
+        </div>
+        <div>
+          <div class="cs-fact-label">Storage Footprint</div>
+          <div class="cs-fact-val">0 bytes persistent disk storage</div>
+        </div>
+      </div>
+
+      <div class="cs-actions-row">
+        <a href="https://github.com/buildwithneel/Ghostchat" target="_blank" rel="noopener noreferrer" class="cs-btn cs-btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          View GitHub Repository
+        </a>
+        <a href="../index.html#contact" class="cs-btn cs-btn-outline">Inquire on Code</a>
+      </div>
+    </header>
+
+    <!-- 1. The Problem -->
+    <section class="cs-section">
+      <h2 class="cs-section-title">1. The Problem</h2>
+      <p class="cs-prose">
+        Nearly every mainstream messaging tool demands invasive phone number verification, email harvesting, contacts synchronization, and persistent cloud backup retention. Even for temporary, ad-hoc conversations, users leave permanent metadata trails, device fingerprints, and synchronized message histories that outlive the conversation by years.
+      </p>
+    </section>
+
+    <!-- 2. The Solution -->
+    <section class="cs-section">
+      <h2 class="cs-section-title">2. Architectural Principles</h2>
+      <p class="cs-prose">
+        Ghost Chat explores a radical minimization model:
+      </p>
+      <div class="cs-decision-grid">
+        <div class="cs-decision-card">
+          <h3 class="cs-decision-title">Zero Identifiers Required</h3>
+          <p class="cs-decision-body">No phone numbers, no emails, no account registration. Rooms are joined via randomized one-time session hashes.</p>
+        </div>
+        <div class="cs-decision-card">
+          <h3 class="cs-decision-title">RAM-Only Transience</h3>
+          <p class="cs-decision-body">Messages exist exclusively in volatile memory for active peers. No relational database, no disk logging, and no persistent device storage.</p>
+        </div>
+        <div class="cs-decision-card">
+          <h3 class="cs-decision-title">Instant Session Annihilation</h3>
+          <p class="cs-decision-body">Closing the browser tab purges local crypto keys and memory buffers immediately.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Status -->
+    <section class="cs-section">
+      <h2 class="cs-section-title">3. Current Status &amp; Honest Evidence</h2>
+      <div class="cs-status-callout">
+        <h4>Honest Status Disclosure</h4>
+        <p>
+          Ghost Chat is maintained as an experimental sandbox exploring ephemeral web state and privacy concepts. As documented in Neel's portfolio, it should be recognized as an exploratory prototype rather than a commercially hardened enterprise messaging system.
+        </p>
+      </div>
+    </section>
+
+    <footer class="cs-footer">
+      <div class="cs-footer-author">
+        Ghost Chat Case Study • Neel Agrawal (CHARUSAT IT)
+      </div>
+      <a href="../index.html#projects" class="cs-btn cs-btn-primary">Return to Portfolio [↑]</a>
+    </footer>
+  </main>
+
+</body>
+</html>
